@@ -1,28 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Q7</title>
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <main>
-        <section>
-            <div>
+        <section class="wrapper">
+            <div class="loginform">
                 <h2>Foolish Developer</h2>
                 <form action="">
-                    <div>
-                        <input type="email" name="email" id="" placeholder="Enrol Id">
+                    <div class="input-form enrol">
+                        <i class="fa-solid fa-user"></i>
+                        <input class="loginform-input" type="email" name="email" id="" placeholder="Enrol Id">
                     </div>
-                    <div>
-                        <input type="password" name="" id="" placeholder="Password">
+                    <div class="input-form password">
+                        <i class="fa-solid fa-lock"></i>
+                        <input class="loginform-input" type="password" name="" id="" placeholder="Password">
                     </div>
-                    <button>Login</button>
-                    <p>or</p>
-                    <div>
-                        <button>Facebook</button>
-                        <button>Google</button>
+                    <button class="loginform-button">Login</button>
+                    <p style="text-align: center; padding: 15px 0; font-size: 20px; color: white;">or</p>
+                    <div class="loginform-submit">
+                        <button class="loginform-button">Facebook</button>
+                        <button class="loginform-button">Google</button>
 
                     </div>
                 </form>
@@ -30,4 +38,5 @@
         </section>
     </main>
 </body>
+
 </html>
